@@ -1,4 +1,11 @@
-body {
+@font-face
+{
+	font-family: Roboto;
+	src: url(https://fonts.googleapis.com/css?family=Roboto);
+}
+body
+{
+	font-family: Roboto, serif;
 }
 .menu
 {
@@ -29,4 +36,10 @@ body {
 	display:block;
 	padding:14px 16px;
 	text-transform:uppercase;
+}
+.content
+{
+	background:#fff;
+	width:100%;
+	margin:40px 0 32px;
 }
