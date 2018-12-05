@@ -1,0 +1,32 @@
+body {
+}
+.menu
+{
+	background:#fff;
+	border:1px solid #ccc;
+	border-top:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.menu ul
+{
+	margin:auto;
+	width:900px;
+	list-style:none;
+}
+
+.menu li
+{
+	display:inline-block;
+}
+
+.menu a
+{
+	font-size:12px;
+	display:block;
+	padding:14px 16px;
+	text-transform:uppercase;
+}
